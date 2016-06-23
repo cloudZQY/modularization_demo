@@ -29,6 +29,7 @@ const config = Object.assign({}, commonConfig, {
     chunkFilename: '[name].dev.js',
   },
   devtool: 'eval-source-map',
+  watch: 'true',
 });
 
 module.exports = config;
