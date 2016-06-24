@@ -1,1 +1,3 @@
-var doT = require('doT');
+define(function (require, exports, module) {
+  
+});

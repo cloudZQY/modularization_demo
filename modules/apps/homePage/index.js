@@ -1,2 +1,4 @@
-var doT = require('doT');
-document.write('hello world');
+define(function (require, exports, module) {
+  require('dialog');
+  
+});

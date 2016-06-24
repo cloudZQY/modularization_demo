@@ -6,8 +6,10 @@ const path = require('path');
 const config = {
   resolve: {
     alias: {
-      'doT': path.join(__dirname,'modules/uicontrol/doT/doT.js'),
-      'jquery': path.join(__dirname,'modules/uicontrol/jquery/jquery.js'),
+      'doT': path.join(__dirname, 'modules/uicontrol/doT/doT.js'),
+      'jquery': path.join(__dirname, 'modules/uicontrol/jquery/jquery.js'),
+
+      'dialog': path.join(__dirname, 'modules/comm/dialog/dialog.js'),
     },
   },
   module: {

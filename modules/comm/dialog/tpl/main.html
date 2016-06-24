@@ -1,3 +1,10 @@
-<div class="dialog" id="dialog">
-    <div class="title">{{! it.title}}</div>
+<div class="dialog">
+    <span class="dialogCloseBtn">×</span>
+    <div class="header">{{! it.title}}</div>
+    <div class="dialogContent">
+        {{? it.content}}
+        it.content
+        {{?}}
+    </div>
 </div>
+<div class="dialog_mask"></div>
